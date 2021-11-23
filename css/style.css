@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery .container .view-container .gallery-class{
+    width: 250vw !important;
+    height: 100px !important;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.bag-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bag-card{
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.bag-img img{
+    height: 300px;
+    width: 100%;
+}
+
