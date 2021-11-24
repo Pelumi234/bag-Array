@@ -65,16 +65,13 @@ let bagSection = document.getElementById('bag-wrap');
 let html = "";
 gallery.forEach(e =>{
     html +=`
-        <div class="bag-card">
-                <div class="bag-img">
-                    <img src="../img/${e.image}.jpg" alt="Bucket bag">
-                </div>
-                <div class="bag-info">
-                    <h4>${e.name}</h4>
-                    <h4 class="price-tag">${e.price}</h4>
-                </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../img/${e.image}.jpg" class="card-img-top" alt="Bucket bag">
+            <div class="card-body">
+              <h5 class="card-title">${e.name}</h5>
+              <p class="card-text">${e.price}</p>
             </div>
-
+        </div>
     `
     console.log(e)
 
